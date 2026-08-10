@@ -467,8 +467,8 @@ To cite this artifact specifically:
   author    = {Leal, Gabriela and Silva, Denini and Teixeira, Leopoldo},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {TODO-artifact-doi},
-  url       = {https://doi.org/TODO-artifact-doi}
+  doi       = {10.5281/zenodo.21878260},
+  url       = {https://doi.org/10.5281/zenodo.21878260}
 }
 ```
 
