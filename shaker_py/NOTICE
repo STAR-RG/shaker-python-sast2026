@@ -1,0 +1,49 @@
+Shaker: flaky-test detection through resource-stress injection
+Copyright (c) 2020-2026, Software Testing and Analysis Research (STAR-RG) Research Group at UFPE
+
+This directory contains a MODIFIED copy of Shaker, redistributed under the
+BSD 2-Clause License (see LICENSE).
+
+Upstream sources
+----------------
+  Repository : https://github.com/STAR-RG/shaker
+  Archive    : https://doi.org/10.5281/zenodo.5347973
+  Paper      : Denini Silva, Leopoldo Teixeira, and Marcelo d'Amorim.
+               "Shake It! Detecting Flaky Tests Caused by Concurrency with
+               Shaker." ICSME 2020, pp. 301-311.
+
+Modifications made for this study
+---------------------------------
+Both changes were required to evaluate Shaker on Python projects and are
+contributions of the accompanying paper. Neither alters Shaker's detection
+mechanism or its stress configurations.
+
+1. Single-test execution (`-stp` / `--specific-tests-path`)
+   Upstream Shaker accepts only a project directory and stresses the whole
+   test suite. The ground truth used in this study identifies flakiness per
+   individual test, so `shaker.py` and `tool_pytest.py` were extended to accept
+   a single Pytest node id and run only that test.
+
+2. Heterogeneous dependency resolution
+   Upstream Shaker assumes a single dependency-declaration format. The projects
+   sampled here declare dependencies in several formats, so dependency
+   resolution was generalised to install each project before running its test.
+
+Removals
+--------
+`analytics.py` was removed from this copy. It was an optional upstream
+reporting script that POSTed run summaries to a third-party endpoint that is no
+longer operated. It was never imported or invoked by Shaker itself, so removing
+it does not change any behaviour; it is dropped here so that nothing in this
+artifact contacts an external service beyond cloning the subject projects and
+installing their dependencies. The upstream copy is unaffected.
+
+The stress configurations in `shaker/stressConfigurations.json` are inherited
+from the original study UNCHANGED; leaving them untouched is what the
+accompanying paper sets out to evaluate.
+
+Third-party components invoked at runtime
+-----------------------------------------
+  stress-ng (GPL-2.0) is executed as a SEPARATE PROCESS via subprocess, not
+  linked into Shaker, and is not redistributed with this artifact. Its licence
+  therefore does not extend to this software.

@@ -1,0 +1,2 @@
+repo_url,commit_hash,test_path,num_run_shaker,nsr
+https://github.com/AndrewRPorter/wiki-futures,ae6bec3aafa7c2b881b2653eae1eb528f9b63bc7,tests/test_dispatcher.py::test_content_size,1,2

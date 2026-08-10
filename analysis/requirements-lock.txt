@@ -1,0 +1,8 @@
+# Fully pinned versions used by the analysis Docker image
+# (docker/analysis.Dockerfile), so that the image keeps producing the paper's
+# numbers regardless of what PyPI ships in the future.
+#
+# For a local (non-Docker) install use the unpinned analysis/requirements.txt.
+scipy==1.14.1
+pandas==2.2.3
+matplotlib==3.9.2

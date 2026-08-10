@@ -1,0 +1,101 @@
+Project_Name,Project_URL,Project_Hash,Test_filename,Test_classname,Test_funcname,Test_parametrization,flakiness category
+BeautifulSauce,https://github.com/nateraw/BeautifulSauce,f587e638abea1716427713d8a814e30331efb18b,tests/test_sauce.py,tests.test_sauce.TestSauce,test_from_url,,network
+CHESS,https://github.com/nishaq503/CHESS,6f84e7e98d328150170141621cc095dfa80ef67e,tests/test_graph.py,tests.test_graph.TestGraph,test_contains,,random
+CmdKit,https://github.com/glentner/CmdKit,b8d4572612667080807b2b26d47c624a330c2872,tests/test_app.py,tests.test_app,test_app_invalid_options,,random
+DESlib,https://github.com/Menelau/DESlib,77d0ccb491c522e7505d9ac6081b72cac001cb9e,deslib/tests/des/test_probabilistic.py,deslib.tests.des.test_probabilistic,test_check_estimator_DESKL,,random
+GDAX-Python,https://github.com/danpaquin/GDAX-Python,19cac25c51e592994cfa86ec487eef6a5c76718f,tests/test_public_client.py,tests.test_public_client.TestPublicClient,test_get_historic_rates,[start0-end0-21600],network
+GoogleFreeTrans,https://github.com/ziliwang/GoogleFreeTrans,b1f067107b95005778ea8c019a7a903e77e25859,tests/test_all.py,tests.test_all,test_translation,,network
+Intervallum,https://github.com/wol4aravio/Intervallum,e314ee624f09b09913475b02470103095fc076ff,tests/test_interval_functions.py,tests.test_interval_functions,test_base,,random
+JavPy,https://github.com/TheodoreKrypton/JavPy,61df53aafbfbd05ed1efa8c51a08d6e9252cb533,JavPy/tests/test_clients/test_webserver.py,JavPy.tests.test_clients.test_webserver,test_search_by_actress,[Eimi Fukada],network
+Neuraxle,https://github.com/Neuraxio/Neuraxle,20c6e5713198345b43bf6899355f1b5cf65eb02c,testing/metaopt/test_automl_sequential_wrapper.py,testing.metaopt.test_automl_sequential_wrapper,test_automl_sequential_wrapper,,random
+PyXenaValkyrie,https://github.com/xenadevel/PyXenaValkyrie,92b45f1f37a5589cbdb9224a287fa0426d2c8d47,tests/test_offline.py,tests.test_offline.TestXenaOffline,test_build_config,[socket],network
+RanCat,https://github.com/mattjegan/rancat,b59f5abf7e187816034be9169ecd53af87ce017d,tests/test_rancat.py,tests.test_rancat.TestRanCat,test_load_url,,network
+SSLyze,https://github.com/nabla-c0d3/sslyze,bf1b01048560308654b31bf55ad2d2363285f95f,tests/plugins_tests/test_session_resumption_plugin.py,tests.plugins_tests.test_session_resumption_plugin.TestSessionResumptionSupport,test,,network
+Verifone,https://github.com/vilkasgroup/Verifone,5509c08767a9b482cfe5a9572854cf4c73ad6c02,tests/test_verifone.py,tests.test_verifone.TestVerifone,test_023_get_endpoint,,network
+WattTime,https://github.com/stoltzmaniac/WattTime,1f2761a752c6cc241c20e854a7a247349b57be36,tests/test_get_data.py,tests.test_get_data,test_get_detailed_grid_data,,network
+acl-anthology,https://github.com/icoxfog417/acl-anthology,88b4d006a38301be6690bdf43073cf98be7bdd50,tests/test_conferene.py,tests.test_conferene.TestConference,test_retrieve_from_element,,network
+amplimap,https://github.com/koelling/amplimap,47a65e624e4a7f7ed62b029e6ed65dc78cf34ac7,tests/run_test.py,tests.run_test,test_config_umi_error,,IO
+analytic_shrinkage,https://github.com/matzhaugen/analytic_shrinkage,752a0f90696b1ca27a8b84ada3616cdfc98004a9,nonlinshrink/test/test_analytic_shrinkage.py,nonlinshrink.test.test_analytic_shrinkage,test_demean,,random
+arlib,https://github.com/gongliyu/arlib,6918f0146dab459369ec2861fe68d796acff8ea6,tests/test_archive.py,tests.test_archive,test_arlib_read,[/local/hdd/gruberma/arlib/0qATP/deterministic/tmp/tmpy0cq65zt/tests/data/dir],unordered collection
+ashpool,https://github.com/cktc/ashpool,3a35638ecff85da94952cebf7f8684ed564693bc,ashpool/tests/test_ashpool.py,ashpool.tests.test_ashpool,test_differ,,random
+beem,https://github.com/holgern/beem,f3c3bd84daccac1ee4ed45c1ada0f88f29ca3f2f,tests/beemstorage/test_masterpassword.py,tests.beemstorage.test_masterpassword.Testcases,test_masterpwd,,random
+blindpie,https://github.com/alessiovierti/blindpie,300ea0b29e17a6c430da5e4f420ecc7cf0d445be,tests/test_target.py,tests.test_target.TargetTest,test_get_response_times_max_interval,,concurrency
+capsicum,https://github.com/m-mizutani/capsicum,a2d10f65691cf3b685557927da1929a405b63272,tests/blacklist/test_snort.py,tests.blacklist.test_snort,test_bleeding_edge,,network
+cenpy,https://github.com/ljwolf/cenpy,03eefcfd885c48e018cf74abaf46ee03aa7ac119,cenpy/tests/test_parser.py,cenpy.tests.test_parser.Geoparser_Test,test_pysal_holed_polygon,,network
+crfmnes,https://github.com/nmasahiro/crfmnes,5fc9625c86135fb5e8824f867a08cc410d3638bd,tests/test_ellipsoid.py,tests.test_ellipsoid,test_run_d80_ellipsoid,,random
+cuckoopy,https://github.com/rajathagasthya/cuckoopy,e5fab0c4826387f99ddafb0365759cb7111cfd64,tests/test_cuckoofilter.py,tests.test_cuckoofilter,test_insert_filter_full,,random
+cronjob,https://github.com/havefun-plus/cronjob,a2fd9289f44696c5c06ece9cec8dc5315300eecf,tests/test_utils.py,tests.test_utils,test_cronrule,,time
+cvbase,https://github.com/hellock/cvbase,e48d2f76aaeea6472b2175c37780f7b90ae7f1b6,tests/test_progress.py,tests.test_progress,test_track_parallel_progress_list,,concurrency
+data-genie.git,https://github.com/mkeshav/data-genie.git,cde77b7bdb445557f78d834d72d51bb62ad9e668,tests/test_dqc.py,tests.test_dqc,test_has_columns,,random
+data-partitioner,https://github.com/brahle/data_partitioner,c37bca05576648c3f69f8694951bb2ae9ea9ed21,tests/data_suplier_test.py,tests.data_suplier_test.DataSuplierTest,test_training_percent,,random
+dcard-spider,https://github.com/leVirve/dcard-spider,ac64cbcfe7ef6be7e554cef422b1a8a6bb968d46,tests/test_api.py,tests.test_api,test_valid_api_forum,,network
+devtracker,https://github.com/ConSou/devtracker,ea892d6d48aa5d4627b429469b59ae3f0ce7f10f,devtracker/test_devtracker.py,devtracker.test_devtracker,test_end_time_total,,time
+dicom-standard,https://github.com/innolitics/dicom-standard,4d40ca75e3af51dd8fc2b027a7f79b6a2f4193cb,tests/references_test.py,tests.references_test,test_valid_references,,network
+dict,https://github.com/wufeifei/dict,89e730dbc035da6b5ceb598833d2eafc5343864d,tests/test_dict.py,tests.test_dict,test_e2c_sentences,,network
+discovery-client,https://github.com/tomwei7/discovery-client,b10094532ae22eaebd9d093f9550fa75886a3a88,tests/test_crontab.py,tests.test_crontab.TestCrontab,test_crontab,,async wait
+domain-validation,https://github.com/ElliotVilhelm/python-domain-validation,941a6ae29c565f49e98f106b427624874b47f973,domain_validation/test/test_whois_obj.py,domain_validation.test.test_whois_obj,test_WHOIS_utf_encoding,,network
+ebook_homebrew,https://github.com/tubone24/ebook_homebrew,7df72331e9636ad2821543144c8aef02d40b7e23,tests/ut/test_rest.py,tests.ut.test_rest,test_convert_image_to_pdf,,IO
+filtered-intervaltree,https://github.com/lostinplace/filtered-intervaltree,37da431ed36dc9e7936ebd330869f142538ef79d,test/test_interval.py,test.test_interval,test_compare_addition,,random
+fontMath,https://github.com/robotools/fontMath,7f84204033c2d0a284d02e626320ee27c3dfa5ee,Lib/fontMath/test/test_mathTransform.py,Lib.fontMath.test.test_mathTransform.MathTransformTest,test_wrapUnWrapPrecision,,random
+forkliftpy,https://github.com/castelao/supportdata,d0b878e2779120f3cdd2d5a241addc18e26f8616,tests/test_supportdata.py,tests.test_supportdata,test_download_WOA,,network
+fuzzylogic,https://github.com/amogorkon/fuzzylogic,58bd23aeb4b6bf39bd950bcf468b0c2f5c649e69,test/test_units.py,test.test_units.Test_Set,test_eq,,random
+gamble.git,https://github.com/jpetrucciani/gamble.git,d17b25899183a4c4b25fe644024ff754132ae513,tests/models/test_cards.py,tests.models.test_cards,test_deck_init,,random
+geocoder,https://github.com/DenisCarriere/geocoder,39b9999ec70e61da9fa52fe9fe82a261ad70fa8b,tests/test_komoot.py,tests.test_komoot,test_komoot_multi_result,,network
+gwosc,https://github.com/gwpy/gwosc,06b56ce506fda3af4857c8a1aae7bb60fb1925e9,gwosc/tests/test_api.py,gwosc.tests.test_api,test_fetch_event_json_version,,network
+helpers,https://github.com/infosmith/helpers,72c40cf1d1a46875f2956e8827a55d4232db48cb,tests/suite/elma/exceptions/raises/test_raise_if_not_type.py,tests.suite.elma.exceptions.raises.test_raise_if_not_type.TestRaiseIfNotType,test_raise_if_not_type,,random
+hotwing-core,https://github.com/jasonhamilton/hotwing-core,f4d864b1618e928bd981540b2a446bdb74023ca6,tests/test_profile.py,tests.test_profile.TestProfile,test_load_dat_file,,random
+humansort,https://github.com/coreygirard/humansort,270c4ec6f239173e51f05e2d7f514697fdbbb445,tests/test_sort.py,tests.test_sort,test_sort_property,,Test Case Timeout
+jgutils,https://github.com/jerodg/jgutils,6c8ed6aca37d509af8ce1b57635fad62f1c846b4,jgutils/tests/test_naturalsort.py,jgutils.tests.test_naturalsort.TestNaturalSort,test_numeric_intermixed,,random
+langsplit,https://github.com/mindey/langsplit,d30d47bd6f73852dc716f1e79225d8d49dc39daa,tests/test_split.py,tests.test_split,test_partial_autodetect,,random
+lineflow,https://github.com/yasufumy/lineflow,677ed8ba2374f084d58864c2027a7d0245e8f198,tests/datasets/test_text_classification.py,tests.datasets.test_text_classification.AgNewsTestCase,test_loads_each_split,,network
+msp2db,https://github.com/computational-metabolomics/msp2db,fc7108625704c1074a3c085fe67d7ce72367a124,tests/test_msp2db.py,tests.test_msp2db.TestSqlite,test_mona_files,,network
+music-dl,https://github.com/0xHJK/music-dl,883b643d62c63496572f5b883f76359324a5c853,tests/test_addon_baidu.py,tests.test_addon_baidu,test_baidu,,network
+mxnet-octave-conv,https://github.com/CyberZHG/mxnet-octave-conv,5bbe5aa0cc6f43f242cb4a656495df70e3198f1b,tests/test_octave.py,tests.test_octave.TestMXNetOctave,test_fit_residual,,random
+nba_scraper,https://github.com/mcbarlowe/nba_scraper,42a2a1f8f73f6d8ed97636582899d5efda8d0665,test_functional.py,test_functional,test_scrape_date_range,,network
+ndradex,https://github.com/astropenguin/ndradex,0d1a1ed52296f7d4d38254ad081aabff8e923182,tests/test_radex.py,tests.test_radex,test_radex_single_run,,network
+noipy,https://github.com/povieira/noipy,c35add5386b57547c5a72650145a267dc88fa77e,test/test_noipy.py,test.test_noipy.PluginsTest,test_noip_plugin,,network
+noisyopt,https://github.com/andim/noisyopt,625b874918ac5926c3bf05d869e914cbddfffe20,noisyopt/tests/test_noisyopt.py,noisyopt.tests.test_noisyopt,test_AveragedFunction,,random
+ontobio,https://github.com/biolink/ontobio,ade3d89729bce16e39073ede2c0f253f309dc299,tests/test_wd.py,tests.test_wd,test_wd_sparql_ptsd,,network
+orderly-web-deploy,https://github.com/vimc/orderly-web-deploy,550e1f21df54cb71ffab2411f45e7bd49095279a,test/test_vault.py,test.test_vault,test_secret_reading,,network
+packeteer,https://github.com/lungdart/packeteer,2c6e0e8683462e17ff095a89f13a10daf29ef9e0,tests/field_string_test.py,tests.field_string_test,test_variable_string,,random
+pipm,https://github.com/jnoortheen/pipm,a9e0f89e80addea18fd3efdc7b4f6eabd6b6988a,tests/test_file_functions.py,tests.test_file_functions,test_append_last_line,,IO
+piripherals,https://github.com/quantenschaum/piripherals,74e4807a64363e3c95a03222fa250a1073387eaf,tests/test_mpr121.py,tests.test_mpr121,test_mpr121_irq,,async wait
+ploceidae,https://github.com/MATTHEWFRAZER/ploceidae,dad989756318127dc70d05b4ccdd1a3d8142dab1,ploceidae/unit_tests/test_garbage_collection.py,ploceidae.unit_tests.test_garbage_collection.TestGarbageCollection,test_session_locator_does_not_get_deleted_from_cache,,resource leak
+py-finstmt,https://github.com/whoopnip/py-finstmt,820407a87f03377072b545923febd1086def1bec,tests/test_forecast.py,tests.test_forecast.TestForecastStockrowCAT,test_annual_change_make_forecast_and_plug,,random
+py_ev,https://github.com/JBielan/py_ev,0a2d48235b8ff2268254c151a179a2ece40cbd37,tests/test_py_ev.py,tests.test_py_ev,test_equity,,random
+pyais,https://github.com/M0r13n/pyais,d2ca5ff08c532fce5da1c9d268eb453924f12a33,tests/test_tcp_stream.py,tests.test_tcp_stream.TestTCPStream,test_tcp_stream,,network
+pyblnet,https://github.com/nielstron/pyblnet,24a5de966067adc492c0b5c6899c50e7822e15c1,pyblnet/tests/test_web.py,pyblnet.tests.test_web.BLNETWebTest,test_blnet_web_log_in,,network
+pykew,https://github.com/RBGKew/pykew,557c1852ad7a4366467e344e7a46b42549ce8694,pykew/test_powo.py,pykew.test_powo,test_lookup,,network
+pylabeledrf,https://github.com/dessimozlab/pylabeledrf,23e2c2b2c73d35b6c87dd332b45da8d31c0ea63f,test/test_computeLRF.py,test.test_computeLRF.UtilTest,test_computeLRF1,,random
+pympesa,https://github.com/TralahM/pympesa,46839de00a868db0e674c6733d5daaf83293f588,mpesa/tests/test_balance.py,mpesa.tests.test_balance.BalanceTests,test_get_balance,,network
+python-cuckoo,https://github.com/Leechael/python-cuckoo,fa7a87cd482e8a204c94b860c3066c3c1813ff36,cuckoofilter/tests/test_filter.py,cuckoofilter.tests.test_filter,test_unserialize_with_reading_in_utf8,,random
+python-matlab-functions,https://github.com/fzyukio/python-matlab-functions,2860bf48f904d546af75143c531750c8857670bc,tests/test_subind.py,tests.test_subind.Test,test_sub2ind,,random
+python_filmaffinity,https://github.com/sergiormb/python_filmaffinity,b8042de57e95f38a1c767a84ba77cc74f70a1e2c,tests/test.py,tests.test.TestApi,test_recommend_movistar,,network
+pytsmp,https://github.com/kithomak/pytsmp,15d58a39e016100fb44cdcc9f6115fa7736eb2bb,tests/test_utils.py,tests.test_utils.TestCalculateDistanceProfile,test_calculate_distance_profile_constant_sequence,,random
+pyupload,https://github.com/yukinotenshi/pyupload,32fb1ea1eb38c14e1fa2b23e7a923448625c1946,pyupload/tests/upload_test.py,pyupload.tests.upload_test.TestUploadMethods,test_fileio,,network
+pyvesync,https://github.com/markperdue/pyvesync,4a43bad8a7b9d3b2e7f580f1f3739f27a00bdc2b,src/tests/test_vesync_login.py,src.tests.test_vesync_login,test_login,[sam@mail.com-pass-correct],time
+pywsl,https://github.com/t-sakai-kure/pywsl,79a5bf104a53cb6d3498918e435bd88ac5331543,tests/pul_tests/test_pu_mr.py,tests.pul_tests.test_pu_mr.TestPU_SL,test_cv,,random
+ruTS,https://github.com/SergeyShk/ruTS,af02f627d9022f0f4825d9bed4ffc97d3d329f2d,tests/test_utils.py,tests.test_utils,test_download_file,,resource leak
+schemas,https://github.com/CIMAC-CIDC/schemas,c2b011f49361e01a2816076b9436ae46d71ba0db,tests/test_template.py,tests.test_template,test_generate_empty_template,,IO
+scikit-procrustes,https://github.com/melissawm/skprocrustes,05b6fd4fcc6cb0d7b8d1115dc562a0f8f7e227b2,skprocrustes/tests/test_skprocrustes.py,skprocrustes.tests.test_skprocrustes.TestGBB_Solver,test_gbb_solver_known_solution_problem_1,,random
+selenium-wire,https://github.com/wkeeling/selenium-wire,f80339bc2da0485fbba4165375c009b90efdb3c2,tests/seleniumwire/proxy/test_client.py,tests.seleniumwire.proxy.test_client.AdminClientIntegrationTest,test_get_response_body_json,,network
+service-manager,https://github.com/hmrc/service-manager,e0a9f2a08e139e23d8a1199a2208b4f5a355a0be,test/unit/test_smdownload.py,test.unit.test_smdownload.TestSmDownload,test_reporthook10percent,,time
+sf-sdk,https://github.com/block-cat/sf-sdk,6c7eea2c4ee0b2aa42b90047362af716364a6d56,tests/test_order.py,tests.test_order.TestOrder,test_2_get_order,,network
+sida,https://github.com/liusida/sida,77635d2b08c87612330db8612b70ee85c0d57268,test/test_slackbot.py,test.test_slackbot,test_send,,network
+solver,https://github.com/thoth-station/solver,799266429f1adaead649964ea9cbc74ea2d1eddb,tests/python/instrument_test.py,tests.python.instrument_test.TestInstrument,test_get_package_metadata,[click==7.0-click-metadata1],IO
+sports.py,https://github.com/evansloan/sports.py,a2ce0b3cde2e41f5d15e265d9190b6b79828124b,tests/score_test.py,tests.score_test.TestScores,test_sport,,network
+spreading_dye_sampler,https://github.com/NLeSC/spreading_dye_sampler,4282f7609959a31d1b2a4832f3ed643b15c46cb6,spreading_dye_sampler/test/test_dye_blot.py,spreading_dye_sampler.test.test_dye_blot,test_for_each_cell,,random
+svp,https://github.com/joshmgrant/svp,fdf64445d8038b4df5ab2181eb6306d56e3b5162,samples/tests/test_exponential.py,samples.tests.test_exponential,test_data,,network
+threadedprocess,https://github.com/nilp0inter/threadedprocess,0120d6e795782c9f527397490846cd214d9196e1,test_threadedprocess.py,test_threadedprocess,test_futures_run_in_different_processes_and_threads,,concurrency
+token-io,https://github.com/overcat/token-io,f1b14fef9fd64989b9c9e5c076272f72253b39ed,tests/test_address.py,tests.test_address.TestAddress,test_add_and_get_address,,network
+torch-layer-normalization,https://github.com/CyberZHG/torch-layer-normalization,89f405b60f53f85da6f03fe685c190ef394ce50c,tests/test_layer_normalization.py,tests.test_layer_normalization.TestLayerNormalization,test_fit,,random
+torchgan,https://github.com/torchgan/torchgan,fc8b01a1b34d0f19c4860ff6dac2568d357fe069,tests/torchgan/test_metrics.py,tests.torchgan.test_metrics.TestMetrics,test_inception_score,,network
+trainline-python,https://github.com/tducret/trainline-python,9c9991346f0d2578f8676c353df140bb0b60bd91,tests/test_trainline.py,tests.test_trainline,test_basic_search_with_bicyle,,network
+truffleHog,https://github.com/MechanicalRock/truffleHog,5e7f32d4005f82e66b2b9ccd44fcac8e02c1aa34,tests/test_utils.py,tests.test_utils.TestStringMethods,test_exit_if_invalid_commit,,IO
+vault-dev,https://github.com/vimc/vault-dev,ccec5a246e4c05358a57fb68d821a16910d2a125,test/test_vault_dev.py,test.test_vault_dev,test_cleanup_on_gc,,async wait
+vimms,https://github.com/sdrogers/vimms,fcae1a81b4fa4c4913fd0bd3af9b79be8122feaa,tests/integration/test_controllers.py,tests.integration.test_controllers.TestTopNController,test_TopN_controller_with_simulated_chems,,random
+wellpathpy,https://github.com/Zabamund/wellpathpy,f29b14a9a1c46e77ea98b141e3cdc43674654ea2,wellpathpy/test/test_position_log.py,wellpathpy.test.test_position_log,test_resample_onto_unchanged_md,,random
+wiki-futures,https://github.com/AndrewRPorter/wiki-futures,ae6bec3aafa7c2b881b2653eae1eb528f9b63bc7,tests/test_dispatcher.py,tests.test_dispatcher,test_content_size,,random
+words-to-regular-expression,https://github.com/radeklat/words-to-regular-expression,6be1a3846f4bc07a2264b72d1e1ee031c605bac7,tests/unit/test_utils.py,tests.unit.test_utils.IterableToRegexp,test_generates_correct_regexp_from_iterable_of_strings,,random
+xenavalkyrie,https://github.com/xenadevel/PyXenaValkyrie/,92b45f1f37a5589cbdb9224a287fa0426d2c8d47,tests/test_offline.py,tests.test_offline.TestXenaOffline,test_inventory,[socket],network
+xphyle,https://github.com/jdidion/xphyle,9f66b129130a368611fb2ab0027c6218b1a13a50,tests/test_performance.py,tests.test_performance,test_fastq,,IO

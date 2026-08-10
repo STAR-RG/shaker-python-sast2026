@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the accompanying paper."
+title: >-
+  Replication Package for "Evaluating Shaker for Flaky Test Detection in
+  Python Projects"
+authors:
+  - family-names: Leal
+    given-names: Gabriela
+  - family-names: Silva
+    given-names: Denini
+  - family-names: Teixeira
+    given-names: Leopoldo
+year: 2026
+license: BSD-2-Clause
+repository-code: "https://github.com/STAR-RG/shaker-python-sast2026"
+preferred-citation:
+  type: conference-paper
+  title: "Evaluating Shaker for Flaky Test Detection in Python Projects"
+  authors:
+    - family-names: Leal
+      given-names: Gabriela
+    - family-names: Silva
+      given-names: Denini
+    - family-names: Teixeira
+      given-names: Leopoldo
+  collection-title: >-
+    Proceedings of the 11th Brazilian Symposium on Systematic and Automated
+    Software Testing (SAST)
+  year: 2026

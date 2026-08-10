@@ -1,0 +1,18 @@
+# Outputs of the analysis (Part A)
+output/
+paper/generated/
+paper/img/
+
+# Outputs of the experiments (Part B)
+results_example/
+results_example.csv
+results_rerun/
+results_169_shaker/
+
+# Local environments
+.venv/
+__pycache__/
+*.pyc
+
+# OS noise
+.DS_Store
