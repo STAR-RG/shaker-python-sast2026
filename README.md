@@ -51,7 +51,7 @@ common to both.
 | `run_analysis.sh`                               | Part A in Docker: one command, no local Python needed.                  |
 | `build.sh`, `run_rerun.sh`, `run_169_shaker.sh` | Part B drivers (test execution; optional).                              |
 | `paper.pdf`                                     | The accepted paper.                                                     |
-| `LICENSE`                                       | BSD 2-Clause (code) + CC BY 4.0 (data). See [Licence](#licence).        |
+| `LICENSE`                                       | BSD 2-Clause (code) + CC BY 4.0 (data). See [License](#license).        |
 
 ---
 
@@ -421,22 +421,22 @@ human subjects was conducted.
 
 The subject projects themselves are not redistributed. The experiment clones each
 one from its own public repository at the commit recorded in
-`dataset/projects.csv`, and each remains under its own licence.
+`dataset/projects.csv`, and each remains under its own license.
 
 The ground-truth files in `dataset/` are derived from the dataset of Gruber
-et al., licensed CC BY 4.0, and are redistributed here under the same licence
+et al., licensed CC BY 4.0, and are redistributed here under the same license
 with attribution.
 
 ---
 
-## Licence
+## License
 
 - Code (`analysis/`, `experiment/`, `docker/`, `shaker_py/`, `*.sh`):
   BSD 2-Clause License
 - Data (`dataset/`, `results/`, `raw_results/`):
   Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-See `LICENSE` for the full text, the scope of each licence, and the third-party
+See `LICENSE` for the full text, the scope of each license, and the third-party
 attributions (Shaker, the Gruber et al. dataset, `stress-ng`, and the subject
 projects).
 
@@ -467,8 +467,8 @@ To cite this artifact specifically:
   author    = {Leal, Gabriela and Silva, Denini and Teixeira, Leopoldo},
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.21878260},
-  url       = {https://doi.org/10.5281/zenodo.21878260}
+  doi       = {10.5281/zenodo.22119340},
+  url       = {https://doi.org/10.5281/zenodo.22119340}
 }
 ```
 

@@ -12,11 +12,11 @@ authors:
     given-names: Leopoldo
 year: 2026
 license: BSD-2-Clause
-doi: 10.5281/zenodo.21878260
+doi: 10.5281/zenodo.22119340
 repository-code: "https://github.com/STAR-RG/shaker-python-sast2026"
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.21878260
+    value: 10.5281/zenodo.22119340
     description: Archived version of this artifact on Zenodo
 preferred-citation:
   type: conference-paper
